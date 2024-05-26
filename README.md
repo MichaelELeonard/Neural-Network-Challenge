@@ -85,7 +85,7 @@ The 'EIN' and 'Name' columns were removed from the dataset, and they were not ne
 
 
 ## Compiling, Training, and Evaluating the Optimization Models
-An outline of the optimization technique used for each optimization model and optimization results are as follows:
+An outline of the optimization techniques used for each optimization model and their results are as follows:
 ### Optimization Model #1
 * Three hidden layers <br>
 * Hidden layer one – 15 neurons, activation function ‘relu’<br>
