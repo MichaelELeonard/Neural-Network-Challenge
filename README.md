@@ -34,13 +34,8 @@ For the preprocessing of the data, the data was initially read into a Pandas Dat
 ### Import and read the charity_data.csv
 <img src="ReadMe Pics/Pic 1.png" width="1602" height="209">
 
-
 ### Drop the non-beneficial ID columns, 'EIN' and 'NAME'
 <img src="ReadMe Pics/Pic 2.png" width="1195" height="212">
-
-
-### The number of unique values in each column
-<img src="ReadMe Pics/Pic 3.png" width="277" height="204">
 
 ### Binning the Data
 Cut off values for binning ‘APPLICATION_TYPE’ (500) and  ‘CLASSIFICATION’ (1800) were established with any data below these thresholds placed in category ‘Other’
