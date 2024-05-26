@@ -137,7 +137,6 @@ With the three optimization models we were attempting to boost the model’s acc
 <br>
 Unfortunately, none of the optimization techniques was able to produce the desired goal of achieving a 75% accuracy percentage for the model.  Future steps to achieve the 75% accuracy percentage could include:
 
-<br>
 * Trying different models including Decision Trees, Randon Forrest and Supervised and unsupervised learning
 * Include Tensorflow 2.0 to automate our neural network model optimization
 
