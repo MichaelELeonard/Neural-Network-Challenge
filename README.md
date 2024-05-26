@@ -91,7 +91,7 @@ An outline of the optimization technique used for each optimization model and op
 * Hidden layer two – 15 neurons, activation function ‘relu’<br>
 * Hidden layer three – 15 neurons, activation function ‘relu’<br>
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
-The complexity of this optimization model was increased by adding 3 hidden layers with 15 neurons per layer to see if the accuracy results would be increased.  Unfortunately, the results came in less than the original attempt producing 72.75% predictive accuracy and a loss of 0.56
+The complexity of this optimization model was increased by adding 3 hidden layers with 15 neurons per layer to see if the accuracy results would be increased.  Unfortunately, the results came in less than the original attempt producing 72.8% predictive accuracy and a loss of 0.55
 <img src="ReadMe Pics/Opp Output Pic1.png" width="525" height="289">
 <img src="ReadMe Pics/Opp Output Pic2.png" width="587" height="62">
 <img src="ReadMe Pics/Opp Output Pic3.png" width="589" height="435">
@@ -104,12 +104,27 @@ The complexity of this optimization model was increased by adding 3 hidden layer
 * Hidden layer three – 20 neurons, activation function ‘relu’<br>
 * Hidden layer four – 20 neurons, activation function ‘relu’<br>
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
-The complexity of this optimization model was increased by adding 4 hidden layers with 20 neurons per layer to see if the accuracy results would be increased.  ‘LeakyReLU” was used for the activation function for the first two hidden layers and the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  Unfortunately, the results came in less than the original attempt producing 72.75% predictive accuracy and a loss of 0.56
+The complexity of this optimization model was increased by adding 4 hidden layers with 20 neurons per layer to see if the accuracy results would be increased.  ‘LeakyReLU” was used for the activation function for the first two hidden layers and the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  Unfortunately, the results came in less than the original attempt producing 72.7% predictive accuracy and a loss of 0.56
 
 <img src="ReadMe Pics/Opp Output Pic4.png" width="522" height="316">
 <img src="ReadMe Pics/Opp Output Pic5.png" width="596" height="52">
 <img src="ReadMe Pics/Opp Output Pic6.png" width="633" height="436">
 
+
+### Optimization Model #3
+* Six hidden layers <br>
+* Hidden layer one – 30 neurons, activation function ‘LeakyReLU’<br>
+* Hidden layer two – 30 neurons, activation function ‘relu’<br>
+* Hidden layer three – 30 neurons, activation function ‘LeakyReLU’<br>
+* Hidden layer four – 30 neurons, activation function ‘relu’<br>
+* Hidden layer five – 30 neurons, activation function ‘LeakyReLU’<br>
+* Hidden layer six – 30 neurons, activation function ‘relu’<br>
+* Output layer – 1 neuron, activation function ‘sigmoid’<br>  
+The complexity of this optimization model was increased by adding 6 hidden layers with 30 neurons per layer to see if the accuracy results would be increased.  Epochs were increased to 400 and ‘LeakyReLU’ was used as the activation function for layers one, three and five, with ‘ReLU’ used for layers two, four and six.  Finally, the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  The results stubbornly came in less than the original attempt producing 72.8% predictive accuracy and a loss of 0.59
+
+<img src="ReadMe Pics/Opp Output Pic7.png" width="522" height="316">
+<img src="ReadMe Pics/Opp Output Pic8.png" width="596" height="52">
+<img src="ReadMe Pics/Opp Output Pic9.png" width="633" height="436">
 
 
 
