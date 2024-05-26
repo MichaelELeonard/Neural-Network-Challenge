@@ -42,7 +42,9 @@ For the preprocessing of the data, the data was initially read into a Pandas Dat
 ### The number of unique values in each column
 <img src="ReadMe Pics/Pic 3.png" width="277" height="204">
 
+### Binning the Data
 Cut off values for binning ‘APPLICATION_TYPE’ (500) and  ‘CLASSIFICATION’ (1800) were established with any data below these thresholds placed in category ‘Other’
+
 <img src="ReadMe Pics/Pic 4.png" width="215" height="217">
 
 
