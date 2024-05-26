@@ -48,14 +48,7 @@ Cut off values for binning ‘APPLICATION_TYPE’ (500) and  ‘CLASSIFICATION�
 ### The data was then converted categorical data to numeric with pd.get_dummies
 <img src="ReadMe Pics/Pic 5.png" width="1733" height="240">
 
-
-
-
-
-### Split our preprocessed data into our features and target arrays
-### Create a StandardScaler instances
-### Fit the StandardScaler
-### Scale the data
+Finally, the data was split and was placed in features and target arrays, an instance for the StandardScaler was established, fit to the data, and the data was scaled. 
 
 # Compile, Train and Evaluate the Model
 ## Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
