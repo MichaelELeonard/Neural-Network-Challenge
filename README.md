@@ -128,11 +128,13 @@ The complexity of this optimization model was again increased by creating 6 hidd
 <img src="ReadMe Pics/Opp Output Pic9.png" width="577" height="438">
 
 ## Optimization Summary
-With the three optimization models we were trying to boost the model’s accuracy performance by using a variety of model optimization techniques.  The model optimization techniques implemented included:
+With the three optimization models we were attempting to boost the model’s accuracy performance by using a variety of model optimization techniques.  The model optimization techniques implemented included:
 * Adding more neurons
 * Adding more hidden layers
 * Changing activation functions
 * Adding more epochs.  
+
+<br>
 Unfortunately, none of the optimization techniques was able to produce the desired goal of achieving a 75% accuracy percentage for the model.  Future steps to achieve the 75% accuracy percentage could include:
 * Trying different models including Decision Trees, Randon Forrest and Supervised and unsupervised learning
 * Include Tensorflow 2.0 to automate our neural network model optimization
