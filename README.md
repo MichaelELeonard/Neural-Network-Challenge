@@ -4,11 +4,11 @@
 
 
 # Background
-The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  A CSV was received From Alphabet Soup’s business team, containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Use machine learning and neural networks, create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  A CSV was received From Alphabet Soup’s business team, containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Utilize machine learning and neural networks to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 <br>
 
 # Preprocessing
-For the preprocessing of the data, the data was initially read into a Pandas DataFrame and the EIN and NAME columns were removed.  The variable IS_SUCCESSFUL is identified to be the ‘target’ of the model with the ‘feature’ variables to include: 
+The data was read into a Pandas DataFrame and the EIN and NAME columns were removed.  The variable ‘Is Successful’ was identified to be the ‘target’ of the model with the ‘feature’ variables to include: 
 <br>
 <br>
 
@@ -29,7 +29,7 @@ For the preprocessing of the data, the data was initially read into a Pandas Dat
 <img src="ReadMe Pics/Pic 2.png" width="1195" height="212">
 
 ### Binning the Data
-Cut off values for binning ‘APPLICATION_TYPE’ (500) and  ‘CLASSIFICATION’ (1800) were established with any data below these thresholds placed in category ‘Other’
+Cut off values were established for binning ‘Application Type” (500) and  ‘Classification’ (1800), with any data below these thresholds placed in category ‘Other’
 
 <img src="ReadMe Pics/Pic 4.png" width="215" height="217">
 
@@ -44,7 +44,7 @@ Finally, the data was split and was placed in features and target arrays, an ins
 <br>
 
 # Compile, Train and Evaluate the Model
-A Deep Learning - Neural Network model was established, compiled, fit, and trained.   The model was run for 200 epochs, and the model characteristics included:   
+A Deep Learning - Neural Network model was established, compiled, fit, and trained.   The model was run for 200 epochs, with model characteristics including:   
 * Two hidden layers <br>
 * Hidden layer one – 8 neurons, activation function ‘relu’<br>
 * Hidden layer two – 5 neurons, activation function ‘relu’<br>
@@ -92,7 +92,7 @@ An outline of the optimization techniques used for each optimization model and t
 * Hidden layer two – 15 neurons, activation function ‘relu’<br>
 * Hidden layer three – 15 neurons, activation function ‘relu’<br>
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
-This attempt was designed to boost the complexity of the  optimization model by creating 3 hidden layers with 15 neurons per layer to see if the accuracy results would be increased.  Unfortunately, the results came in less than the original attempt producing 72.8% predictive accuracy and a loss of 0.55
+This attempt was designed to boost the complexity of the  optimization model by creating 3 hidden layers with 15 neurons per layer to assess if the accuracy results would increase.  Unfortunately, the results came in less than the original attempt, producing 72.8% predictive accuracy and a loss of 0.55
 <img src="ReadMe Pics/Opp Output Pic1.png" width="525" height="289">
 <img src="ReadMe Pics/Opp Output Pic2.png" width="587" height="62">
 <img src="ReadMe Pics/Opp Output Pic3.png" width="589" height="435">
@@ -105,7 +105,7 @@ This attempt was designed to boost the complexity of the  optimization model by 
 * Hidden layer three – 20 neurons, activation function ‘relu’<br>
 * Hidden layer four – 20 neurons, activation function ‘relu’<br>
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
-The complexity of this optimization model was again increased by creating 4 hidden layers with 20 neurons per layer to boost model performance.  ‘LeakyReLU” was used for the activation function for the first two hidden layers and the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  Unfortunately, the results came in less than the original attempt producing 72.7% predictive accuracy and a loss of 0.56
+The complexity of this optimization model was again increased by creating 4 hidden layers with 20 neurons per layer in an attempt to  boost model’s performance.  ‘LeakyReLU” was used for the activation function for the first two hidden layers and the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  Unfortunately, the results came in less than the original attempt producing 72.7% predictive accuracy and a loss of 0.56
 
 <img src="ReadMe Pics/Opp Output Pic4.png" width="522" height="316">
 <img src="ReadMe Pics/Opp Output Pic5.png" width="596" height="52">
@@ -140,7 +140,7 @@ Unfortunately, none of the optimization techniques was able to produce the desir
 <br>
 
 * Trying different model structures including Decision Trees, Randon Forrest and Supervised and Unsupervised learning
-* Include Tensorflow 2.0 to automate our neural network model optimization
+* Implement Tensorflow 2.0 within our model to automate our neural network model optimization
 
 <br>
 <img src="ReadMe Pics/Cover 4.png" width="799" height="469"> 
