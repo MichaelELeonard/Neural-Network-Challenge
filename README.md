@@ -105,7 +105,7 @@ This attempt was designed to boost the complexity of the  optimization model by 
 * Hidden layer three – 20 neurons, activation function ‘relu’<br>
 * Hidden layer four – 20 neurons, activation function ‘relu’<br>
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
-The complexity of this optimization model was again increased by creating 4 hidden layers with 20 neurons per layer to see if the accuracy results would be increased.  ‘LeakyReLU” was used for the activation function for the first two hidden layers and the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  Unfortunately, the results came in less than the original attempt producing 72.7% predictive accuracy and a loss of 0.56
+The complexity of this optimization model was again increased by creating 4 hidden layers with 20 neurons per layer to boost model performance.  ‘LeakyReLU” was used for the activation function for the first two hidden layers and the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  Unfortunately, the results came in less than the original attempt producing 72.7% predictive accuracy and a loss of 0.56
 
 <img src="ReadMe Pics/Opp Output Pic4.png" width="522" height="316">
 <img src="ReadMe Pics/Opp Output Pic5.png" width="596" height="52">
