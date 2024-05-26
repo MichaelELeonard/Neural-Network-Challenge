@@ -66,7 +66,7 @@ The model produced a 73.17 predictive accuracy and a loss of 0.55
 Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  Use machine learning and neural networks, create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.  Three optimization model permutations were constructed in an attempt to boost the model’s accuracy above 75%.   
 
 ## Targets and Features
-The variable ‘Is Successful‘ was identified to be the ‘target’ for all three of the models and the ‘feature’ variables to include: 
+The variable ‘Is Successful‘ was identified to be the ‘target’ for all three of the models and the ‘feature’ variables included: 
 <br>
 
 * Application Type
