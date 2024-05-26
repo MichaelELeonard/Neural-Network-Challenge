@@ -23,59 +23,20 @@
 
 
 
-<img src="ReadMe Pics/Pic 12.png" width="648" height="391">
+<img src="ReadMe Pics/Pic 1.png" width="648" height="391">
+<img src="ReadMe Pics/Pic 2.png" width="648" height="391">
+<img src="ReadMe Pics/Pic 3.png" width="648" height="391">
+<img src="ReadMe Pics/Pic 4.png" width="648" height="391">
+<img src="ReadMe Pics/Pic 5.png" width="648" height="391">
+<img src="ReadMe Pics/Pic 6.png" width="648" height="391">
+<img src="ReadMe Pics/Pic 7.png" width="648" height="391">
+<img src="ReadMe Pics/Cover 1.png" width="648" height="391">
+<img src="ReadMe Pics/Cover 2.png" width="648" height="391">
+<img src="ReadMe Pics/Cover 3.png" width="648" height="391">
+<img src="ReadMe Pics/Cover 4.png" width="648" height="391">
+<img src="ReadMe Pics/Cover 5.png" width="648" height="391">
 
 
-
-
-<br>
-<img src="ReadMe Pics/Pic 5.png" width="317" height="74">
-
-
-<img src="ReadMe Pics/Pic 18.png" width="489" height="177">
-<br>
-
-### Overview of the analysis
-
-
-
-### The Results
-
-
-### Summary
-Some trends can be observed when examining the performance of the logistic regression model.  Overall, the model performed exceptionally well with a 99% accuracy rate. The model excelled at identifying healthy loans, scoring a 100% success rate in precision and recall.  The model did drop off slightly when identifying high-risk loans, scoring 87% in precision and 89% in recall.  One potential reason for the drop off in the high-risk loans results may be due to the small sample size provided for the model, as it only accounted for 3.2% of the total data examined.  Increasing this sample size may provide greater learning opportunities for the model, thus boosting its performance.  It may also be prudent to The data was read into a Pandas DataFrame for analysis.  
-<br>
-<img src="ReadMe Pics/Pic 1.png" width="858" height="167">
-
-<br>
-
-
-The “loan_status” column was removed from the DateFrame and it was placed in its own DataFrame resulting in two standalone DataFrames of data.  The two Dataframes can be viewed below. 
-
-<br>
-<img src="ReadMe Pics/Pic 3.png" width="785" height="155">
-<img src="ReadMe Pics/Pic 2.png" width="299" height="136">
-
-expose this data to other machine learning models to see if the change affects the performance results.           
-
-In this challenge, we utilized a structured machine learning logistic regression model to evaluate the loan risk of borrowers.  This determination was based off a variety of factors.  These factors include: <br>
-* Loan Size
-* Interest Rate
-* Borrower Income
-* Debt to Income Ratio
-* Number of Revolving Accounts
-* Past Negative Credit Marks
-* Total Debt
-The confusion matrix results show:
-<br>
-* 18,679 individuals were CORRECTLY identified as credit worthy (True Negative)
-* 558 individuals were CORRECTLY identified as not credit worthy (True Positive)
-* 67 individuals that were INCORRECTLY identified as not credit worthy (False Negative)
-* 80 individuals were INCORRECTLY identified as credit worthy (False Positive)
-
-The rows and columns were summed and compared to assess accuracy and precision.  Both aggregate totals were 19,384 so we can consider the model to be accurate and precise.
-
-<img src="ReadMe Pics/Pic 17.png" width="421" height="287">
 
 The classification report results show:
 <br>
