@@ -91,7 +91,7 @@ An outline of the optimization technique used for each optimization model and op
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
 The complexity of this optimization model was increased by adding three hidden layers with 15 neurons per layer to see if the accuracy results would be increased.  Unfortunately, the results came in less than the original attempt producing 72.75% predictive accuracy and a loss of 0.56
 <img src="ReadMe Pics/Opp Output Pic1.png" width="531" height="265">
-<img src="ReadMe Pics/ Opp Output Pic2.png" width="595" height="434">
+<img src="ReadMe Pics/Opp Output Pic2.png" width="595" height="434">
 
 
 
