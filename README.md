@@ -58,23 +58,28 @@ The model produced a 73.17 predictive accuracy and a loss of .055
 <img src="ReadMe Pics/Pic 7.png" width="589" height="59">
 <img src="ReadMe Pics/Accuracy working.png" width="598" height="437">
 
+# Optimization Models
+### Overview
+Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  Use machine learning and neural networks, create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.  Five optimization model permutations were constructed in an attempt to boost the model’s accuracy above 75%.   For all five optimization models the   
 
-
-
-
-
-<img src="ReadMe Pics/Cover 1.png" width="760" height="550">
-<img src="ReadMe Pics/Cover 2.png" width="846" height="327">
-
-<img src="ReadMe Pics/Cover 4.png" width="799" height="469">
-<img src="ReadMe Pics/Cover 5.png" width="798" height="421">
-
-
-
-The classification report results show:
+### Targets and Features
+The variable ‘Is Successful‘ was identified to be the ‘target’ for all five of the models with the ‘feature’ variables to include: 
 <br>
-* The accuracy of the entire model was 99%
-* The precision for healthy loans was 100% 
-* The recall for healthy loans was 100%
-* The precision for high-risk loans was 87% 
-* The recall for high-risk loans was 89%  
+<br>
+
+* Application Type
+* Affiliation
+* Classification
+* Use Case
+* Organization
+* Status
+* Income Amt
+* Special Considerations
+* Ask Amount
+
+### Removed Columns
+The 'EIN' and 'Name' columns were removed from the dataset and they were not needed for the model.
+
+
+
+<img src="ReadMe Pics/Cover 4.png" width="799" height="469"> 
