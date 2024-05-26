@@ -55,7 +55,7 @@ Finally, the data was split and was placed in features and target arrays, an ins
 A Deep Learning - Neural Network model was established, compiled, fit, and trained.   The model was run for 200 epochs.  Model characteristics included:   
 * Two hidden layers <br>
 **  Hidden layer one – 8 nodes, activation feature ‘relu’<br>
-**Hidden layer one – 5 nodes, activation feature ‘relu’<br>
+** Hidden layer two – 5 nodes, activation feature ‘relu’<br>
 * Output layer – 1 node, activation feature ‘sigmoid’<br>  
 
 <img src="ReadMe Pics/Pic 6.png" width="539" height="291">
