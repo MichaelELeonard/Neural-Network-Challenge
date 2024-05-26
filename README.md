@@ -7,8 +7,20 @@
 
 
 ## Import and read the charity_data.csv
+
+<img src="ReadMe Pics/Pic 1.png" width="1602" height="209">
+
+
 ## Drop the non-beneficial ID columns, 'EIN' and 'NAME'
+
+<img src="ReadMe Pics/Pic 2.png" width="1195" height="212">
+
+
 ## Determine the number of unique values in each column
+
+<img src="ReadMe Pics/Pic 3.png" width="277" height="204">
+
+
 ## Look at APPLICATION_TYPE value counts to identify and replace with "Other"
 ## Choose a cutoff value and create a list of application types to be replaced use the variable name `application_types_to_replace`
 ## Choose a cutoff value and create a list of classifications to be replaced use the variable name `classifications_to_replace`
@@ -29,9 +41,9 @@
 
 
 
-<img src="ReadMe Pics/Pic 1.png" width="1602" height="209">
-<img src="ReadMe Pics/Pic 2.png" width="1195" height="212">
-<img src="ReadMe Pics/Pic 3.png" width="277" height="204">
+
+
+
 <img src="ReadMe Pics/Pic 4.png" width="215" height="217">
 <img src="ReadMe Pics/Pic 5.png" width="1733" height="240">
 <img src="ReadMe Pics/Pic 6.png" width="539" height="291">
