@@ -59,11 +59,11 @@ The model produced a 73.17 predictive accuracy and a loss of 0.55
 <img src="ReadMe Pics/Accuracy working.png" width="598" height="437">
 
 # Optimization Modeling and Results
-### Overview
-Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  Use machine learning and neural networks, create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.  Five optimization model permutations were constructed in an attempt to boost the model’s accuracy above 75%.   For all five optimization models the   
+## Overview
+Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  Use machine learning and neural networks, create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.  Three optimization model permutations were constructed in an attempt to boost the model’s accuracy above 75%.   
 
-### Targets and Features
-The variable ‘Is Successful‘ was identified to be the ‘target’ for all five of the models with the ‘feature’ variables to include: 
+## Targets and Features
+The variable ‘Is Successful‘ was identified to be the ‘target’ for all three of the models and the ‘feature’ variables to include: 
 <br>
 <br>
 
@@ -77,10 +77,25 @@ The variable ‘Is Successful‘ was identified to be the ‘target’ for all f
 * Special Considerations
 * Ask Amount
 
-### Removed Columns
-The 'EIN' and 'Name' columns were removed from the dataset and they were not needed for the model.
+## Removed Columns
+The 'EIN' and 'Name' columns were removed from the dataset, and they were not needed for the model.  ‘Application Type’ (500) and ‘Classification’ (1800) were binned to remove any extraneous data from the dataset.  
 
-### Compiling, Training, and Evaluating the Optimization Models
+
+## Compiling, Training, and Evaluating the Optimization Models
+An outline of the optimization technique used for each optimization model and optimization results are as follows:
+### Optimization Model #1
+* Three hidden layers <br>
+** Hidden layer one – 15 neurons, activation function ‘relu’<br>
+** Hidden layer two – 15 neurons, activation function ‘relu’<br>
+** Hidden layer two – 15 neurons, activation function ‘relu’<br>
+* Output layer – 1 neuron, activation function ‘sigmoid’<br>  
+The complexity of this optimization model was increased by adding three hidden layers with 15 neurons per layer to see if the accuracy results would be increased.  Unfortunately, the results came in less than the original attempt producing 72.75% predictive accuracy and a loss of 0.56
+<img src="ReadMe Pics/Opp Output Pic1.png" width="531" height="265">
+<img src="ReadMe Pics/ Opp Output Pic2.png" width="595" height="434">
+
+
+
+
 
 
 
