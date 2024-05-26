@@ -49,12 +49,22 @@ Cut off values for binning ‘APPLICATION_TYPE’ (500) and  ‘CLASSIFICATION�
 <img src="ReadMe Pics/Pic 5.png" width="1733" height="240">
 
 Finally, the data was split and was placed in features and target arrays, an instance for the StandardScaler was established, fit to the data, and the data was scaled. 
+<br>
 
 # Compile, Train and Evaluate the Model
-## Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
-## Compile the model
-## Train the model
-## Evaluate the model using the test data
+A Deep Learning - Neural Network model was established, compiled, fit, and trained.   The model was run for 200 epochs.  Model characteristics included:   
+•	Two hidden layers 
+o	Hidden layer one – 8 nodes, activation feature ‘relu’
+o	Hidden layer one – 5 nodes, activation feature ‘relu’
+•	Output layer – 1 node, activation feature ‘sigmoid’  
+
+<img src="ReadMe Pics/Pic 6.png" width="539" height="291">
+
+
+
+
+
+
 ## Export our model to HDF5 file
 
 ### Summary
@@ -64,7 +74,6 @@ Finally, the data was split and was placed in features and target arrays, an ins
 
 
 
-<img src="ReadMe Pics/Pic 6.png" width="539" height="291">
 <img src="ReadMe Pics/Pic 7.png" width="589" height="59">
 <img src="ReadMe Pics/Cover 1.png" width="760" height="550">
 <img src="ReadMe Pics/Cover 2.png" width="846" height="327">
