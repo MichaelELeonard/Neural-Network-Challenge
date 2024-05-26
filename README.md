@@ -85,9 +85,9 @@ The 'EIN' and 'Name' columns were removed from the dataset, and they were not ne
 An outline of the optimization technique used for each optimization model and optimization results are as follows:
 ### Optimization Model #1
 * Three hidden layers <br>
-** Hidden layer one – 15 neurons, activation function ‘relu’<br>
-** Hidden layer two – 15 neurons, activation function ‘relu’<br>
-** Hidden layer two – 15 neurons, activation function ‘relu’<br>
+* Hidden layer one – 15 neurons, activation function ‘relu’<br>
+* Hidden layer two – 15 neurons, activation function ‘relu’<br>
+* Hidden layer three – 15 neurons, activation function ‘relu’<br>
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
 The complexity of this optimization model was increased by adding three hidden layers with 15 neurons per layer to see if the accuracy results would be increased.  Unfortunately, the results came in less than the original attempt producing 72.75% predictive accuracy and a loss of 0.56
 <img src="ReadMe Pics/Opp Output Pic1.png" width="531" height="265">
