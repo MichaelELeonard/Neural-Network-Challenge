@@ -59,6 +59,7 @@ The model produced a 73.17 predictive accuracy and a loss of 0.55
 <img src="ReadMe Pics/Pic 7.png" width="589" height="59">
 <img src="ReadMe Pics/Accuracy working.png" width="598" height="437">
 
+<br>
 # Optimization Modeling and Results
 ## Overview
 Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  Use machine learning and neural networks, create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.  Three optimization model permutations were constructed in an attempt to boost the model’s accuracy above 75%.   
