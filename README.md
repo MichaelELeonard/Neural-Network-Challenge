@@ -8,7 +8,7 @@
 
 ## Import and read the charity_data.csv
 
-<img src="ReadMe Pics/Pic 1.png" width="1602" height="209">
+<img src="ReadMe Pics/Pic 1.png" width="1602" height="150">
 
 
 ## Drop the non-beneficial ID columns, 'EIN' and 'NAME'
