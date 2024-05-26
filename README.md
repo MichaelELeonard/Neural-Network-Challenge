@@ -4,7 +4,7 @@
 
 
 # Background
-The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  A CSV was received From Alphabet Soup’s business team, containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Utilize machine learning and neural networks to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  A CSV was received from the Alphabet Soup’s business team, containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Utilize machine learning and neural networks to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 <br>
 
 # Preprocessing
@@ -53,7 +53,7 @@ A Deep Learning - Neural Network model was established, compiled, fit, and train
 <img src="ReadMe Pics/Pic 6.png" width="539" height="291">
 
 # The Results
-The model produced a 73.17 predictive accuracy and a loss of 0.55
+The model produced a 73.17% predictive accuracy rate and a loss of 0.55
 
 <br>
 <img src="ReadMe Pics/Pic 7.png" width="589" height="59">
@@ -105,7 +105,7 @@ This attempt was designed to boost the complexity of the  optimization model by 
 * Hidden layer three – 20 neurons, activation function ‘relu’<br>
 * Hidden layer four – 20 neurons, activation function ‘relu’<br>
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
-The complexity of this optimization model was again increased by creating 4 hidden layers with 20 neurons per layer in an attempt to boost model’s performance.  ‘LeakyReLU” was used as the activation function for the first two hidden layers and the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  Unfortunately, the results came in less than the original attempt producing 72.7% predictive accuracy and a loss of 0.56
+The complexity of this optimization model was again increased by creating 4 hidden layers with 20 neurons per layer in an attempt to boost model’s performance.  ‘LeakyReLU” was used as the activation function for the first two hidden layers and the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  Unfortunately, the results again came in at less than the original attempt, producing 72.7% predictive accuracy and a loss of 0.56
 
 <img src="ReadMe Pics/Opp Output Pic4.png" width="522" height="316">
 <img src="ReadMe Pics/Opp Output Pic5.png" width="596" height="52">
@@ -121,7 +121,7 @@ The complexity of this optimization model was again increased by creating 4 hidd
 * Hidden layer five – 30 neurons, activation function ‘LeakyReLU’<br>
 * Hidden layer six – 30 neurons, activation function ‘relu’<br>
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
-The complexity of this optimization model was again increased by creating 6 hidden layers with 30 neurons per layer to see if the accuracy results would be increased.  Epochs were increased to 400 and ‘LeakyReLU’ was used as the activation function for layers one, three and five, with ‘ReLU’ used for layers two, four and six.  Finally, the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  The results stubbornly came in less than the original attempt producing 72.8% predictive accuracy and a loss of 0.59
+The complexity of this optimization model was again increased by creating 6 hidden layers with 30 neurons per layer to see if the accuracy results would increase.  Epochs were increased to 400 and ‘LeakyReLU’ was used as the activation function for layers one, three and five, with ‘ReLU’ used for layers two, four and six.  Finally, the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  The results again stubbornly came in less than the original attempt, producing 72.8% predictive accuracy and a loss of 0.59
 
 <img src="ReadMe Pics/Opp Output Pic7.png" width="520" height="382">
 <img src="ReadMe Pics/Opp Output Pic8.png" width="577" height="61">
