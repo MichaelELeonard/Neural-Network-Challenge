@@ -54,27 +54,22 @@ Finally, the data was split and was placed in features and target arrays, an ins
 # Compile, Train and Evaluate the Model
 A Deep Learning - Neural Network model was established, compiled, fit, and trained.   The model was run for 200 epochs.  Model characteristics included:   
 * Two hidden layers <br>
-**  Hidden layer one – 8 nodes, activation feature ‘relu’<br>
-** Hidden layer two – 5 nodes, activation feature ‘relu’<br>
-* Output layer – 1 node, activation feature ‘sigmoid’<br>  
+** Hidden layer one – 8 neurons, activation function ‘relu’<br>
+** Hidden layer two – 5 neurons, activation function ‘relu’<br>
+* Output layer – 1 neuron, activation function ‘sigmoid’<br>  
 
 <img src="ReadMe Pics/Pic 6.png" width="539" height="291">
 
-
-
-
-
-
-## Export our model to HDF5 file
-
-### Summary
-
-
-
-
-
-
+### The Results
+The model produced a 73.17 predictive accuracy and a loss of .055
 <img src="ReadMe Pics/Pic 7.png" width="589" height="59">
+<img src="ReadMe Pics/Accuracy working.png" width="598" height="437">
+
+
+
+
+
+
 <img src="ReadMe Pics/Cover 1.png" width="760" height="550">
 <img src="ReadMe Pics/Cover 2.png" width="846" height="327">
 
