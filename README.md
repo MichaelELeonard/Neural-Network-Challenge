@@ -45,7 +45,13 @@ Cut off values for binning ‘APPLICATION_TYPE’ (500) and  ‘CLASSIFICATION�
 
 
 
-### Convert categorical data to numeric with `pd.get_dummies`
+### The date was then converted categorical data to numeric with `pd.get_dummies`
+<img src="ReadMe Pics/Pic 5.png" width="1733" height="240">
+
+
+
+
+
 ### Split our preprocessed data into our features and target arrays
 ### Create a StandardScaler instances
 ### Fit the StandardScaler
@@ -65,8 +71,6 @@ Cut off values for binning ‘APPLICATION_TYPE’ (500) and  ‘CLASSIFICATION�
 
 
 
-<img src="ReadMe Pics/Pic 4.png" width="215" height="217">
-<img src="ReadMe Pics/Pic 5.png" width="1733" height="240">
 <img src="ReadMe Pics/Pic 6.png" width="539" height="291">
 <img src="ReadMe Pics/Pic 7.png" width="589" height="59">
 <img src="ReadMe Pics/Cover 1.png" width="760" height="550">
