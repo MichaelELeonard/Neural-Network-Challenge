@@ -45,7 +45,7 @@ Cut off values for binning ‘APPLICATION_TYPE’ (500) and  ‘CLASSIFICATION�
 
 
 
-### The date was then converted categorical data to numeric with `pd.get_dummies`
+### The data was then converted categorical data to numeric with pd.get_dummies
 <img src="ReadMe Pics/Pic 5.png" width="1733" height="240">
 
 
