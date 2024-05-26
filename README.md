@@ -41,6 +41,7 @@ Cut off values for binning ‘APPLICATION_TYPE’ (500) and  ‘CLASSIFICATION�
 
 Finally, the data was split and was placed in features and target arrays, an instance for the StandardScaler was established, fit to the data, and the data was scaled. 
 <br>
+<br>
 
 # Compile, Train and Evaluate the Model
 A Deep Learning - Neural Network model was established, compiled, fit, and trained.   The model was run for 200 epochs.  Model characteristics included:   
