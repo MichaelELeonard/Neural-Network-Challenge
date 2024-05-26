@@ -10,7 +10,20 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 # Preprocessing
 <br>
-For the preprocessing of the data, the data was initially read into a Pandas DataFrame and the EIN and NAME columns were removed.  
+For the preprocessing of the data, the data was initially read into a Pandas DataFrame and the EIN and NAME columns were removed.  The variable IS_SUCCESSFUL is identified to be the Target of the model with the feature variables t include:
+* APPLICATION_TYPE
+* AFFILIATION
+* CLASSIFICATION
+* USE_CASE
+* ORGANIZATION
+* STATUS
+* INCOME_AMT
+* SPECIAL_CONSIDERATIONS
+* ASK_AMT
+
+
+
+  
 
 ### Import and read the charity_data.csv
 
@@ -22,7 +35,7 @@ For the preprocessing of the data, the data was initially read into a Pandas Dat
 <img src="ReadMe Pics/Pic 2.png" width="1195" height="212">
 
 
-### Determine the number of unique values in each column
+The number of unique values in each column was established and a cut off 
 
 <img src="ReadMe Pics/Pic 3.png" width="277" height="204">
 
