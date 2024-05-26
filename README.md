@@ -21,14 +21,14 @@
 <img src="ReadMe Pics/Pic 3.png" width="277" height="204">
 
 
-## Look at APPLICATION_TYPE value counts to identify and replace with "Other"
-## Choose a cutoff value and create a list of application types to be replaced use the variable name `application_types_to_replace`
-## Choose a cutoff value and create a list of classifications to be replaced use the variable name `classifications_to_replace`
-## Convert categorical data to numeric with `pd.get_dummies`
-## Split our preprocessed data into our features and target arrays
-## Create a StandardScaler instances
-## Fit the StandardScaler
-## Scale the data
+### Look at APPLICATION_TYPE value counts to identify and replace with "Other"
+### Choose a cutoff value and create a list of application types to be replaced use the variable name `application_types_to_replace`
+### Choose a cutoff value and create a list of classifications to be replaced use the variable name `classifications_to_replace`
+### Convert categorical data to numeric with `pd.get_dummies`
+### Split our preprocessed data into our features and target arrays
+### Create a StandardScaler instances
+### Fit the StandardScaler
+### Scale the data
 
 # Compile, Train and Evaluate the Model
 ## Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
