@@ -78,6 +78,7 @@ The variable ‘Is Successful‘ was identified to be the ‘target’ for all t
 
 ## Removed Columns
 The 'EIN' and 'Name' columns were removed from the dataset, and they were not needed for the model.  ‘Application Type’ (500) and ‘Classification’ (1800) were binned to remove any extraneous data from the dataset.  
+<br>
 
 
 ## Compiling, Training, and Evaluating the Optimization Models
