@@ -10,7 +10,7 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 # Preprocessing
 <br>
-
+For the preprocessing of the data, the data was initially read into a Pandas DataFrame and the EIN and NAME columns were removed.  
 
 ### Import and read the charity_data.csv
 
