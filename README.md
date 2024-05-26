@@ -13,23 +13,15 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 For the preprocessing of the data, the data was initially read into a Pandas DataFrame and the EIN and NAME columns were removed.  The variable IS_SUCCESSFUL is identified to be the ‘target’ of the model with the ‘feature’ variables to include: 
 <br>
 <br>
-* APPLICATION_TYPE
-<br>
-* AFFILIATION
-<br>
-* CLASSIFICATION
-<br>
-* USE_CASE
-<br>
-* ORGANIZATION
-<br>
-* STATUS
-<br>
-* INCOME_AMT
-<br>
-* SPECIAL_CONSIDERATIONS
-<br>
-* ASK_AMT
+* Application Type
+* Affiliation
+* Classification
+* Use Case
+* Organzation
+* Status
+* Income Amt
+* Special Considerations
+* Ask Amount
 
 ### Import and read the charity_data.csv
 <img src="ReadMe Pics/Pic 1.png" width="1602" height="209">
