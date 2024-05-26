@@ -67,7 +67,6 @@ Alphabet Soup wants a tool that can help it select the applicants for funding wi
 ## Targets and Features
 The variable ‘Is Successful‘ was identified to be the ‘target’ for all three of the models and the ‘feature’ variables to include: 
 <br>
-<br>
 
 * Application Type
 * Affiliation
@@ -122,9 +121,9 @@ The complexity of this optimization model was increased by adding 4 hidden layer
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
 The complexity of this optimization model was increased by adding 6 hidden layers with 30 neurons per layer to see if the accuracy results would be increased.  Epochs were increased to 400 and ‘LeakyReLU’ was used as the activation function for layers one, three and five, with ‘ReLU’ used for layers two, four and six.  Finally, the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  The results stubbornly came in less than the original attempt producing 72.8% predictive accuracy and a loss of 0.59
 
-<img src="ReadMe Pics/Opp Output Pic7.png" width="522" height="316">
-<img src="ReadMe Pics/Opp Output Pic8.png" width="596" height="52">
-<img src="ReadMe Pics/Opp Output Pic9.png" width="633" height="436">
+<img src="ReadMe Pics/Opp Output Pic7.png" width="520" height="382">
+<img src="ReadMe Pics/Opp Output Pic8.png" width="577" height="61">
+<img src="ReadMe Pics/Opp Output Pic9.png" width="577" height="438">
 
 
 
