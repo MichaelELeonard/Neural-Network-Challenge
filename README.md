@@ -54,11 +54,11 @@ A Deep Learning - Neural Network model was established, compiled, fit, and train
 <img src="ReadMe Pics/Pic 6.png" width="539" height="291">
 
 # The Results
-The model produced a 73.17 predictive accuracy and a loss of .055
+The model produced a 73.17 predictive accuracy and a loss of 0.55
 <img src="ReadMe Pics/Pic 7.png" width="589" height="59">
 <img src="ReadMe Pics/Accuracy working.png" width="598" height="437">
 
-# Optimization Models
+# Optimization Modeling and Results
 ### Overview
 Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  Use machine learning and neural networks, create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.  Five optimization model permutations were constructed in an attempt to boost the model’s accuracy above 75%.   For all five optimization models the   
 
@@ -79,6 +79,14 @@ The variable ‘Is Successful‘ was identified to be the ‘target’ for all f
 
 ### Removed Columns
 The 'EIN' and 'Name' columns were removed from the dataset and they were not needed for the model.
+
+### Compiling, Training, and Evaluating the Optimization Models
+
+
+
+
+
+
 
 
 
