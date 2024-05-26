@@ -13,16 +13,12 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 For the preprocessing of the data, the data was initially read into a Pandas DataFrame and the EIN and NAME columns were removed.  The variable IS_SUCCESSFUL is identified to be the ‘target’ of the model with the ‘feature’ variables to include: 
 <br>
 
-* Application Type<br>
-
-* Affiliation<br>
-
-* Classification<br>
-
-* Use Case<br>
-
-* Organization<br>
-* Status<br>
+* Application Type
+* Affiliation
+* Classification
+* Use Case
+* Organization
+* Status
 * Income Amt
 * Special Considerations
 * Ask Amount
