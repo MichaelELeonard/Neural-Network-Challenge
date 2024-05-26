@@ -23,9 +23,9 @@ For the preprocessing of the data, the data was initially read into a Pandas Dat
 
 * Organization<br>
 * Status<br>
-* Income Amt<br>
-* Special Considerations<br>
-* Ask Amount<br>
+* Income Amt
+* Special Considerations
+* Ask Amount
 
 ### Import and read the charity_data.csv
 <img src="ReadMe Pics/Pic 1.png" width="1602" height="209">
