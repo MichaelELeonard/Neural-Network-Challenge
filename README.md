@@ -45,7 +45,7 @@ For the preprocessing of the data, the data was initially read into a Pandas Dat
 <img src="ReadMe Pics/Pic 2.png" width="1195" height="212">
 
 
-The number of unique values in each column was established and a cut off 
+### The number of unique values in each column
 
 <img src="ReadMe Pics/Pic 3.png" width="277" height="204">
 
