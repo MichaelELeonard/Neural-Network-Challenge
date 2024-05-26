@@ -31,28 +31,23 @@ For the preprocessing of the data, the data was initially read into a Pandas Dat
 <br>
 * ASK_AMT
 
-
-
-  
-
 ### Import and read the charity_data.csv
-
 <img src="ReadMe Pics/Pic 1.png" width="1602" height="209">
 
 
 ### Drop the non-beneficial ID columns, 'EIN' and 'NAME'
-
 <img src="ReadMe Pics/Pic 2.png" width="1195" height="212">
 
 
 ### The number of unique values in each column
-
 <img src="ReadMe Pics/Pic 3.png" width="277" height="204">
 
+Cut off values for binning ‘APPLICATION_TYPE’ (500) and  ‘CLASSIFICATION’ (1800) were established with any data below these thresholds placed in category ‘Other’
+<img src="ReadMe Pics/Pic 4.png" width="215" height="217">
 
-### Look at APPLICATION_TYPE value counts to identify and replace with "Other"
-### Choose a cutoff value and create a list of application types to be replaced use the variable name `application_types_to_replace`
-### Choose a cutoff value and create a list of classifications to be replaced use the variable name `classifications_to_replace`
+
+
+
 ### Convert categorical data to numeric with `pd.get_dummies`
 ### Split our preprocessed data into our features and target arrays
 ### Create a StandardScaler instances
