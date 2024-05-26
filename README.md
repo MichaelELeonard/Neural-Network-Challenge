@@ -44,7 +44,7 @@ Finally, the data was split and was placed in features and target arrays, an ins
 <br>
 
 # Compile, Train and Evaluate the Model
-A Deep Learning - Neural Network model was established, compiled, fit, and trained.   The model was run for 200 epochs.  Model characteristics included:   
+A Deep Learning - Neural Network model was established, compiled, fit, and trained.   The model was run for 200 epochs, and the model characteristics included:   
 * Two hidden layers <br>
 * Hidden layer one – 8 neurons, activation function ‘relu’<br>
 * Hidden layer two – 5 neurons, activation function ‘relu’<br>
