@@ -1,5 +1,11 @@
 # Week 21 Challenge – Deep-Learning
-#Preprocessing
+
+<img src="ReadMe Pics/Cover 3.png" width="745" height="305">
+
+# Preprocessing
+<br>
+
+
 ## Import and read the charity_data.csv
 ## Drop the non-beneficial ID columns, 'EIN' and 'NAME'
 ## Determine the number of unique values in each column
@@ -32,7 +38,7 @@
 <img src="ReadMe Pics/Pic 7.png" width="589" height="59">
 <img src="ReadMe Pics/Cover 1.png" width="760" height="550">
 <img src="ReadMe Pics/Cover 2.png" width="846" height="327">
-<img src="ReadMe Pics/Cover 3.png" width="745" height="305">
+
 <img src="ReadMe Pics/Cover 4.png" width="799" height="469">
 <img src="ReadMe Pics/Cover 5.png" width="798" height="421">
 
