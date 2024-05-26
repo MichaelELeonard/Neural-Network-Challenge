@@ -6,17 +6,17 @@
 <br>
 
 
-## Import and read the charity_data.csv
+### Import and read the charity_data.csv
 
 <img src="ReadMe Pics/Pic 1.png" width="1602" height="209">
 
 
-## Drop the non-beneficial ID columns, 'EIN' and 'NAME'
+### Drop the non-beneficial ID columns, 'EIN' and 'NAME'
 
 <img src="ReadMe Pics/Pic 2.png" width="1195" height="212">
 
 
-## Determine the number of unique values in each column
+### Determine the number of unique values in each column
 
 <img src="ReadMe Pics/Pic 3.png" width="277" height="204">
 
