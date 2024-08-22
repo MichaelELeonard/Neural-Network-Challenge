@@ -4,7 +4,7 @@
 
 
 # Background
-The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  A CSV was received from the Alphabet Soup’s business team, containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Utilize machine learning and neural networks to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  A CSV was received from the Alphabet Soup’s business team, containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. The goal is to utilize machine learning and neural networks to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 <br>
 
 # Preprocessing
@@ -23,7 +23,7 @@ The data was read into a Pandas DataFrame and the EIN and NAME columns were remo
 * Ask Amount
 
 ### Import and read the charity_data.csv
-<img src="ReadMe Pics/Pic 1.png" width="1602" height="209">
+<img src="ReadMe Pics/Pic 1.png" width="1281" height="167">
 
 ### Drop the non-beneficial ID columns, 'EIN' and 'NAME'
 <img src="ReadMe Pics/Pic 2.png" width="1195" height="212">
@@ -37,7 +37,7 @@ Cut off values were established for binning ‘Application Type” (500) and  �
 
 
 ### The data was converted to numeric data with pd.get_dummies
-<img src="ReadMe Pics/Pic 5.png" width="1733" height="240">
+<img src="ReadMe Pics/Pic 5.png" width="1386" height="192">
 
 Finally, the data was split and was placed in features and target arrays, an instance for the StandardScaler was established, fit to the data, and the data was scaled. 
 <br>
@@ -143,4 +143,4 @@ Unfortunately, none of the optimization techniques was able to produce the desir
 * Implement Tensorflow 2.0 within our model to automate our neural network model optimization
 
 <br>
-<img src="ReadMe Pics/Cover 4.png" width="799" height="469"> 
+<img src="ReadMe Pics/Cover 4.png" width="799" height="469">
