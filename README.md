@@ -62,7 +62,6 @@ The model produced a 73.17% predictive accuracy rate and a loss of 0.55
 <br>
 <img src="ReadMe Pics/Pic 7.png" width="589" height="59">
 <img src="ReadMe Pics/Accuracy working.png" width="598" height="437">
-<br>
 
 # Optimization Modeling and Results
 ## Overview
