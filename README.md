@@ -23,7 +23,7 @@ The data was read into a Pandas DataFrame and the EIN and NAME columns were remo
 * Ask Amount
 
 ### Import and read the charity_data.csv
-<img src="ReadMe Pics/Pic 1.png" width="1281" height="167">
+<img src="ReadMe Pics/Pic 1.png" width="1281" height="150">
 
 ### Drop the non-beneficial ID columns, 'EIN' and 'NAME'
 <img src="ReadMe Pics/Pic 2.png" width="1195" height="212">
@@ -37,7 +37,7 @@ Cut off values were established for binning ‘Application Type” (500) and  �
 
 
 ### The data was converted to numeric data with pd.get_dummies
-<img src="ReadMe Pics/Pic 5.png" width="1386" height="192">
+<img src="ReadMe Pics/Pic 5.png" width="1386" height="180">
 
 Finally, the data was split and was placed in features and target arrays, an instance for the StandardScaler was established, fit to the data, and the data was scaled. 
 <br>
