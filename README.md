@@ -3,8 +3,14 @@
 # Deep-Learning Challenge
 
 Deep-Learning Code - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Working.ipynb
+<br>
+
 Optimization #1 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%231.ipynb
+<br>
+
 Optimization #2 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%232.ipynb
+<br>
+
 Optimization #3 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%233.ipynb
 
 # Background
