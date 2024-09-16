@@ -1,6 +1,6 @@
 <img src="ReadMe Pics/Cover 3.png" width="745" height="305">
 
-# Deep-Learning Challenge
+# Neural Network Challenge
 
 Deep-Learning Code - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Working.ipynb
 <br>
