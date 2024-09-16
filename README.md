@@ -2,7 +2,7 @@
 
 # Neural Network Challenge
 
-Deep-Learning Code - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Working.ipynb
+Neural Network Code - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Working.ipynb
 <br>
 
 Optimization #1 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%231.ipynb
