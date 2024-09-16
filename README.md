@@ -68,30 +68,10 @@ The model produced a 73.17% predictive accuracy rate and a loss of 0.55
 <img src="ReadMe Pics/Accuracy working.png" width="598" height="437">
 
 # Optimization Modeling and Results
-## Overview
-Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  Use machine learning and neural networks, create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.  Three optimization model permutations were constructed in an attempt to boost the model’s accuracy above 75%.   
-
-## Targets and Features
-The variable ‘Is Successful‘ was identified to be the ‘target’ for all three of the models and the ‘feature’ variables included: 
-<br>
-
-* Application Type
-* Affiliation
-* Classification
-* Use Case
-* Organization
-* Status
-* Income Amt
-* Special Considerations
-* Ask Amount
-
-## Removed Columns
-The 'EIN' and 'Name' columns were removed from the dataset, and they were not needed for the model.  ‘Application Type’ (500) and ‘Classification’ (1800) were binned to remove any extraneous data from the dataset.  
-<br>
-
 
 ## Compiling, Training, and Evaluating the Optimization Models
 An outline of the optimization techniques used for each optimization model and their respective results are as follows:
+
 ### Optimization Model #1
 Optimization #1 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%231.ipynb
 
