@@ -14,7 +14,7 @@ Optimization #2 - https://github.com/MichaelELeonard/deep-learning-challenge/blo
 Optimization #3 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%233.ipynb
 
 # Background
-The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures.  A CSV was received from the Alphabet Soup’s business team, containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. The goal is to utilize machine learning and neural networks to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+The nonprofit foundation Alphabet Soup wants a tool that can identify startup applicants with the best chance of success for potential funding.  A CSV was received from Alphabet Soup’s business team, containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. The goal is to utilize machine learning and neural networks to create a binary classifier that can predict whether a startup venture will be successful if funded by Alphabet Soup.
 <br>
 
 # Preprocessing
