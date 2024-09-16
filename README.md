@@ -45,7 +45,7 @@ Cut off values were established for binning ‘Application Type” (500) and  �
 
 
 ### The data was converted to numeric data with pd.get_dummies
-<img src="ReadMe Pics/Pic 5.png" width="1213" height="168">
+<img src="ReadMe Pics/Pic 5.png" width="1386" height="192">
 
 Finally, the data was split and was placed in features and target arrays, an instance for the StandardScaler was established, fit to the data, and the data was scaled. 
 <br>
