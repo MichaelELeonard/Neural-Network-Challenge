@@ -75,6 +75,7 @@ The model produced a 73.17% predictive accuracy rate and a loss of 0.55
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
 
 This attempt was designed to boost the complexity of the optimization model by creating 3 hidden layers with 15 neurons per layer to assess if the accuracy results would increase.  The model produced 72.8% predictive accuracy and a loss of 0.55.
+
 <img src="ReadMe Pics/Opp Model 1.png" width="525" height="289">
 
 ## Optimization Model #1 Results
