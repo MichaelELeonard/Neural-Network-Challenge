@@ -82,6 +82,7 @@ This attempt was designed to boost the complexity of the optimization model by c
 
 The model produced 72.8% predictive accuracy and a loss of 0.55.
 
+
 <img src="ReadMe Pics/Opp Model 1 Results.png" width="587" height="62">
 <img src="ReadMe Pics/Opp Model 1 Graph.png" width="589" height="435">
 
@@ -104,6 +105,7 @@ The complexity of this optimization model was again increased by creating 4 hidd
 ## Optimization Model #2 Results
 
 The model produced 72.7% predictive accuracy and a loss of 0.56.
+
 
 <img src="ReadMe Pics/Opp Model 2 Results.png" width="596" height="52">
 <img src="ReadMe Pics/Opp Model 2 Graph.png" width="633" height="436">
@@ -129,6 +131,7 @@ The complexity of this optimization model was again increased by creating 6 hidd
 ## Optimization Model #3 Results
 
 The model produced 72.8% predictive accuracy and a loss of 0.59
+
 
 <img src="ReadMe Pics/Opp Model 3 Results.png" width="577" height="61">
 <img src="ReadMe Pics/Opp Model 3 Graph.png" width="577" height="438">
