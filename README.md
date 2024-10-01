@@ -38,9 +38,6 @@ Cut off values were established for binning ‘Application Type” (500) and ‘
 
 <img src="ReadMe Pics/Binning the Data.png" width="215" height="217">
 
-
-
-
 ### Convert Data to Numeric Values
 The data was converted to numeric values using pd.get_dummies.
 <img src="ReadMe Pics/Converted to Numeric Data.png" width="1126" height="156">
