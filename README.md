@@ -1,4 +1,4 @@
-<img src="ReadMe Pics/Header.png" width="728" height="372">
+<img src="ReadMe Pics/Header.png" width="837" height="427">
 
 # Neural Network Challenge
 
