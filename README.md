@@ -27,10 +27,10 @@ The data was read into a Pandas DataFrame and the EIN and NAME columns were remo
 * Special Considerations
 * Ask Amount
 
-### Import and read the charity_data.csv
+### Data Import
 <img src="ReadMe Pics/Data.png" width="1281" height="167">
 
-### Drop the non-beneficial ID columns, 'EIN' and 'NAME'
+### Data Cleaning – Removing non-beneficial ID columns, 'EIN' and 'NAME'
 <img src="ReadMe Pics/Cleaned Data.png" width="956" height="169">
 
 ### Binning the Data
@@ -41,7 +41,7 @@ Cut off values were established for binning ‘Application Type” (500) and  �
 
 
 
-### The data was converted to numeric data with pd.get_dummies
+### Convert Data to Numeric Values
 <img src="ReadMe Pics/Converted to Numeric Data.png" width="1126" height="156">
 
 Finally, the data was split and was placed in features and target arrays, an instance for the StandardScaler was established, fit to the data, and the data was scaled. 
@@ -49,11 +49,11 @@ Finally, the data was split and was placed in features and target arrays, an ins
 <br>
 
 ## Compile, Train and Evaluate the Model
-A Deep Learning - Neural Network model was established, compiled, fit, and trained.   The model was run for 200 epochs, with model characteristics including:   
-* Two hidden layers <br>
-* Hidden layer one – 8 neurons, activation function ‘relu’<br>
-* Hidden layer two – 5 neurons, activation function ‘relu’<br>
-* Output layer – 1 neuron, activation function ‘sigmoid’<br>  
+A Deep Learning Neural Network model was established, compiled, fit, and trained.   The model was run for 200 epochs, with model characteristics including:   
+* Two hidden layers 
+* Hidden layer one – 8 neurons, activation function ‘relu’
+* Hidden layer two – 5 neurons, activation function ‘relu’
+* Output layer – 1 neuron, activation function ‘sigmoid’ 
 
 <img src="ReadMe Pics/Initial Model.png" width="539" height="291">
 
@@ -124,7 +124,7 @@ With the three optimization models we were attempting to boost the model’s acc
 * Adding more epochs.  
 
 <br>
-Unfortunately, none of the optimization techniques was able to produce the desired goal of achieving a 75% accuracy percentage for the model.  Future steps to achieve the 75% accuracy percentage could include:
+Future optimization steps to achieve the desired 75% accuracy could include:
 <br>
 <br>
 
