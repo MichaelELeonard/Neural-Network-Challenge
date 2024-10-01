@@ -2,16 +2,13 @@
 
 # Neural Network Challenge
 
-Neural Network Code - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Working.ipynb
-<br>
+[Neural Network Code Link]( https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Working.ipynb)
 
-Optimization #1 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%231.ipynb
-<br>
+[Optimization Model #1 Code Link]( https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%231.ipynb)
 
-Optimization #2 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%232.ipynb
-<br>
+[Optimization Model #2 Code Link]( https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%232.ipynb)
 
-Optimization #3 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%233.ipynb
+[Optimization Model #3 Code Link]( https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%233.ipynb)
 
 # Background
 The nonprofit foundation Alphabet Soup wants a tool that can identify startup applicants with the best chance of success for potential funding.  A CSV was received from Alphabet Soup’s business team, containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. The goal is to utilize machine learning and neural networks to create a binary classifier that can predict whether a startup venture will be successful if funded by Alphabet Soup.
@@ -69,11 +66,9 @@ The model produced a 73.17% predictive accuracy rate and a loss of 0.55
 
 # Optimization Modeling and Results
 
-## Compiling, Training, and Evaluating the Optimization Models
-An outline of the optimization techniques used for each optimization model and their respective results are as follows:
-
 ### Optimization Model #1
-Optimization #1 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%231.ipynb
+
+[Optimization Model #1 Code Link]( https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%231.ipynb)
 
 * Three hidden layers <br>
 * Hidden layer one – 15 neurons, activation function ‘relu’<br>
@@ -87,7 +82,8 @@ This attempt was designed to boost the complexity of the  optimization model by 
 
 
 ### Optimization Model #2
-Optimization #2 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%232.ipynb
+
+[Optimization Model #2 Code Link]( https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%232.ipynb)
 
 * Four hidden layers <br>
 * Hidden layer one – 20 neurons, activation function ‘LeakyReLU’<br>
@@ -103,7 +99,8 @@ The complexity of this optimization model was again increased by creating 4 hidd
 
 
 ### Optimization Model #3
-Optimization #3 - https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%233.ipynb
+
+[Optimization Model #3 Code Link]( https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%233.ipynb)
 
 * Six hidden layers <br>
 * Hidden layer one – 30 neurons, activation function ‘LeakyReLU’<br>
