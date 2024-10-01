@@ -42,6 +42,7 @@ Cut off values were established for binning ‘Application Type” (500) and ‘
 
 
 ### Convert Data to Numeric Values
+The data was converted to numeric values using pd.get_dummies.
 <img src="ReadMe Pics/Converted to Numeric Data.png" width="1126" height="156">
 
 Finally, the data was split and was placed in features and target arrays, an instance for the StandardScaler was established, fit to the data, and the data was scaled. 
