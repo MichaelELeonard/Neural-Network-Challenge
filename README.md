@@ -123,13 +123,9 @@ With the three optimization models we were attempting to boost the model’s acc
 * Changing activation functions
 * Adding more epochs.  
 
-<br>
 Future optimization steps to achieve the desired 75% accuracy could include:
-<br>
-<br>
 
 * Trying different model structures including Decision Trees, Randon Forrest and Supervised and Unsupervised learning
 * Implement Tensorflow 2.0 within our model to automate our neural network model optimization
 
-<br>
 <img src="ReadMe Pics/Cover 4.png" width="799" height="469">
