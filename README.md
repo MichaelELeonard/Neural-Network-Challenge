@@ -55,7 +55,7 @@ A Deep Learning Neural Network model was established, compiled, fit, and trained
 
 <img src="ReadMe Pics/Initial Model.png" width="539" height="291">
 
-## Model Results
+## Initial Model Results
 The model produced a 73.17% predictive accuracy rate and a loss of 0.55
 
 <br>
