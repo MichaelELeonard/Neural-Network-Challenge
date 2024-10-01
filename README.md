@@ -34,7 +34,7 @@ The data was read into a DataFrame and the EIN and NAME columns were removed.  T
 <img src="ReadMe Pics/Cleaned Data.png" width="956" height="169">
 
 ### Binning the Data
-Cut off values were established for binning ‘Application Type” (500) and ‘Classification’ (1800), with the variables listed below placed in the category ‘Other’
+Cut off values were established for binning ‘Application Type” (500) and ‘Classification’ (1800), with any data below these thresholds placed in category ‘Other’
 
 <img src="ReadMe Pics/Binning the Data.png" width="215" height="217">
 
