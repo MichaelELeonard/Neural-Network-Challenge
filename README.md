@@ -66,7 +66,7 @@ The model produced a 73.17% predictive accuracy rate and a loss of 0.55
 
 # Optimization Modeling and Results
 
-### Optimization Model #1
+## Optimization Model #1
 
 [Optimization Model #1 Code Link]( https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%231.ipynb)
 
@@ -81,7 +81,7 @@ This attempt was designed to boost the complexity of the  optimization model by 
 <img src="ReadMe Pics/Opp Model 1 Graph.png" width="589" height="435">
 
 
-### Optimization Model #2
+## Optimization Model #2
 
 [Optimization Model #2 Code Link]( https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%232.ipynb)
 
@@ -98,7 +98,7 @@ The complexity of this optimization model was again increased by creating 4 hidd
 <img src="ReadMe Pics/Opp Model 2 Graph.png" width="633" height="436">
 
 
-### Optimization Model #3
+## Optimization Model #3
 
 [Optimization Model #3 Code Link]( https://github.com/MichaelELeonard/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_%233.ipynb)
 
