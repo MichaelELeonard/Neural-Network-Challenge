@@ -15,7 +15,7 @@ The nonprofit foundation Alphabet Soup wants a tool that can identify startup ap
 <br>
 
 ## Preprocessing
-The data was read into a Pandas DataFrame and the EIN and NAME columns were removed.  The variable ‘Is Successful’ was identified to be the ‘target’ of the model with the ‘feature’ variables to include: 
+The data was read into a DataFrame and the EIN and NAME columns were removed.  The variable ‘Is Successful’ was identified to be the ‘target’ of the model with the ‘feature’ variables to include: 
 
 * Application Type
 * Affiliation
