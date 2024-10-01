@@ -74,11 +74,13 @@ The model produced a 73.17% predictive accuracy rate and a loss of 0.55
 * Hidden layer three – 15 neurons, activation function ‘relu’<br>
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
 
-This attempt was designed to boost the complexity of the optimization model by creating 3 hidden layers with 15 neurons per layer to assess if the accuracy results would increase.  The model produced 72.8% predictive accuracy and a loss of 0.55.
+This attempt was designed to boost the complexity of the optimization model by creating 3 hidden layers with 15 neurons per layer to assess if the accuracy results would increase. 
 
 <img src="ReadMe Pics/Opp Model 1.png" width="525" height="289">
 
 ## Optimization Model #1 Results
+
+The model produced 72.8% predictive accuracy and a loss of 0.55.
 
 <img src="ReadMe Pics/Opp Model 1 Results.png" width="587" height="62">
 <img src="ReadMe Pics/Opp Model 1 Graph.png" width="589" height="435">
@@ -95,11 +97,13 @@ This attempt was designed to boost the complexity of the optimization model by c
 * Hidden layer four – 20 neurons, activation function ‘relu’<br>
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
 
-The complexity of this optimization model was again increased by creating 4 hidden layers with 20 neurons per layer to boost model’s performance.  ‘LeakyReLU” was used as the activation function for the first two hidden layers and the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  The model produced 72.7% predictive accuracy and a loss of 0.56.
+The complexity of this optimization model was again increased by creating 4 hidden layers with 20 neurons per layer to boost model’s performance.  ‘LeakyReLU” was used as the activation function for the first two hidden layers and the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model. 
 
 <img src="ReadMe Pics/Opp Model 2.png" width="522" height="316">
 
 ## Optimization Model #2 Results
+
+The model produced 72.7% predictive accuracy and a loss of 0.56.
 
 <img src="ReadMe Pics/Opp Model 2 Results.png" width="596" height="52">
 <img src="ReadMe Pics/Opp Model 2 Graph.png" width="633" height="436">
@@ -118,11 +122,13 @@ The complexity of this optimization model was again increased by creating 4 hidd
 * Hidden layer six – 30 neurons, activation function ‘relu’<br>
 * Output layer – 1 neuron, activation function ‘sigmoid’<br>  
 
-The complexity of this optimization model was again increased by creating 6 hidden layers with 30 neurons per layer to see if the accuracy results would increase.  Epochs were increased to 400 and ‘LeakyReLU’ was used as the activation function for layers one, three and five, with ‘ReLU’ used for layers two, four and six.  Finally, the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.  The model produced 72.8% predictive accuracy and a loss of 0.59
+The complexity of this optimization model was again increased by creating 6 hidden layers with 30 neurons per layer to see if the accuracy results would increase.  Epochs were increased to 400 and ‘LeakyReLU’ was used as the activation function for layers one, three and five, with ‘ReLU’ used for layers two, four and six.  Finally, the ‘Classification’ bin cutoff value was reduced to 280 to try and bring more variability to the model.
 
 <img src="ReadMe Pics/Opp Model 3.png" width="520" height="382">
 
 ## Optimization Model #3 Results
+
+The model produced 72.8% predictive accuracy and a loss of 0.59
 
 <img src="ReadMe Pics/Opp Model 3 Results.png" width="577" height="61">
 <img src="ReadMe Pics/Opp Model 3 Graph.png" width="577" height="438">
